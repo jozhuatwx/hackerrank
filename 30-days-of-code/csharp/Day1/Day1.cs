@@ -6,14 +6,20 @@ namespace Day1
     {
         static void Main(string[] args)
         {
-            // print hello world
-            Console.WriteLine("Hello, World.");
+            // initialisation
+            int i = 4;
+            double d = 4.0;
+            string s = "HackerRank ";
 
             // read input
-            string input = Console.ReadLine();
+            int i2 = Convert.ToInt32(Console.ReadLine());
+            double d2 = Convert.ToDouble(Console.ReadLine());
+            string s2 = Console.ReadLine();
 
-            // print input statement
-            Console.WriteLine(input);
+            // print sum statement
+            Console.WriteLine(i + i2);
+            Console.WriteLine(String.Format("{0:N1}", d + d2));
+            Console.WriteLine(s + s2);
         }
     }
 }
