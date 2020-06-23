@@ -1,7 +1,7 @@
 import java.util.*;
 
 class Day1 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         // initialisation
         int i = 4;
         double d = 4.0;
