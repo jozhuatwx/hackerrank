@@ -5,6 +5,7 @@ using namespace std;
 
 string conditionalStatement(int i)
 {
+    // return conditional statement
     if (i % 2 != 0)
         return "Weird";
     if (i > 20)

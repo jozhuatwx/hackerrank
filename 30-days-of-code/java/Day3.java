@@ -2,6 +2,7 @@ import java.util.*;
 
 class Day3 {
     static String conditionalStatement(int i) {
+        // return conditional statement
         if (i % 2 != 0)
             return "Weird";
         if (i > 20)
