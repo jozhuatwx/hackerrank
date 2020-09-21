@@ -32,11 +32,11 @@ namespace Day4
         {
             // return age statement
             if (age < 13)
-                return "You are young.";
+                return "young";
             if (age < 18)
-                return "You are a teenager.";
+                return "a teenager";
 
-            return "You are old.";
+            return "old";
         }
     }
 
@@ -61,7 +61,7 @@ namespace Day4
                     p.YearPasses();
 
                 // print age statement
-                Console.WriteLine(p.AmIOld());
+                Console.WriteLine("You are {0}.", p.AmIOld());
             }
         }
     }
